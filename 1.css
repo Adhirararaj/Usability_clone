@@ -1,0 +1,246 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    
+
+}
+
+:root{
+    --primary-text-color: #183b56;
+    --secondary-text-color: #557592;
+    --aacent-color-dark: #2294ed;
+    --accent-color-dark: #053d69;
+    --padding-inline-section: 20px;
+}
+
+body{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: var(--primary-text-color);
+
+}
+h1{
+    font-size: 3rem;    
+}
+h2{
+    font-size: 2rem;    
+}
+h3{
+    font-size: 1.5rem;    
+}
+p{
+    font-size: 1.25rem;
+    color: var(--primary-text-color);
+    line-height: 1.8rem;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+/* body{
+    background-image: url('assets/asset\ 41.png');
+    
+} */
+.samallboldtext{
+    font-size: 1rem;
+    font-weight: 700;
+}
+.container{
+    max-width: 1300px;
+    margin-inline: auto;
+    padding: var(--padding-inline-section);
+}
+
+.bannertext{
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+}
+
+.top-banner{
+    background-color: #4fb3d4;
+    background-image: url('/assets/asset\ 32.png');
+    background-size: 300px;
+    background-repeat: repeat;
+}
+.flex{
+    display: flex;
+    align-items: center;
+    /* max-width: 1300px; */
+}
+.companylogo img{
+    width: 200px;
+    
+}
+.main-nav{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+ul{
+    list-style: none;
+}
+.navlinks{
+    flex-basis: 730px;
+}
+.navlinks ul{
+    justify-content: end;
+    gap: 40px;
+
+}
+.hoverlinks{
+    color: var(--primary-text-color);
+}
+.hoverlinks:hover{
+    color: var(--aacent-color-dark);
+}
+.primarybutton{
+    background-color: var(--aacent-color-dark);
+    border-radius: 6px;
+    font-weight: 700;
+    color: white !important;
+    padding: 13px 24px;
+    box-shadow: 0 0 2px var(--secondary-text-color);
+    transition: o.2s ease-out;
+}
+
+.primarybutton:hover { 
+     background-color: var(--accent-color-dark);
+}
+
+.secondarybutton{
+    border-radius: 6px;
+    font-weight: 700;
+    padding: 13px 24px;
+    background-color: white !important;
+    box-shadow: 0 0 2px var(--secondary-text-color);
+    border: 1px solid black ;
+    transition: o.2s ease-out;
+}
+.button{
+    
+    width: 150px;
+    margin-top: 20px;
+}
+.button:hover { 
+    background-color: var(--accent-color-dark);
+}
+header{
+    padding: 50px var(--padding-inline-section) 0;
+}
+.headersection{
+    justify-content: center;
+    gap: 50px;
+}
+.headerleft{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    max-width: 40vw;
+}
+
+.headerright img{
+    width: 600px;
+}
+.companies-section{
+    flex-direction: column;
+    gap: 20px;
+}
+.upperdiv{
+    margin-block: 50px;
+}
+.lowerdiv img{
+    /* width: 100px; */
+    height: 50px;
+}
+.lowerdiv{
+    /* display: flex; */
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 50px;
+}
+.features-section{
+    flex-direction: column;
+}
+
+.button1{
+    margin-top: 20px;
+
+}
+.button1:hover{
+    color: #2294ed;
+}
+.text{
+margin-top: 50px;
+}
+.features1{
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-image: url('assets/asset\ 34.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+
+}
+
+.andar{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-block: 20px;
+    padding-inline: 20px;
+    width: 400px;
+    gap: 20px;
+
+}
+.para{
+    text-align: center;
+}
+.leftdiv img{
+    width: 600px;
+    margin-right: 20px;
+}
+.rightdiv{
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 20px;
+}
+.para2{
+    text-align: left;
+    margin-top: 100px;
+}
+.boxup{
+    flex-direction: column;
+}
+.one{
+    margin-block: 50px;
+}
+
+.button3{
+    margin-top: 20px;
+}
+
+.backexam{
+    width: 23%;
+    height: 300px;
+    
+    background: linear-gradient(rgb(0,0,0,0.1),rgb(0,0,0,0.5)),url('assets/asset\ 36.jpeg');
+    /* background-image: ; */
+    background-size: cover;
+    position: relative;
+    
+    
+    
+}
+
+
+
+.parara{
+    position: absolute;
+    bottom: 20px;
+    left: 5px;
+    color: white;
+    
+}
